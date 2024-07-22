@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#hero">
+                    <img src="images/logo.png" alt="Food Blog Logo">
+                </a>
+            </div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Welcome to My Food Blog</h1>
+            <p>Discover delicious recipes, cooking tips, and more!</p>
+            <a href="#blog" class="btn">Read the Blog</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2><hr><br>
+            <p>Hi there! I'm Donut, the taste buds behind FOOD. My journey into the world of food started at a young age, growing up in a family where the kitchen was the heart of our home. Whether it was the aroma of freshly baked bread or the vibrant colors of a garden-fresh salad, food has always been a central part of my life.</p>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="container">
+            <h2>Recent Blog Posts</h2><hr>
+            <div class="blog-post">
+                <img src="images/pasta.jpg" alt="Post 1">
+                <h3>Delicious Pasta Recipe</h3>
+                <p>Pasta is the quintessential comfort food that transcends cultures and seasons. Whether it's a rich, creamy Alfredo, a tangy marinara, or a simple garlic and olive oil dish, pasta never fails to satisfy. Its versatility allows for endless combinations, from hearty meat sauces to fresh vegetable medleys, making it a staple in kitchens around the world. Perfectly cooked pasta, with its al dente texture, serves as the perfect canvas for sauces and toppings, transforming each meal into a delightful experience. Explore our favorite pasta recipes and discover why this Italian classic continues to be a beloved favorite for food lovers everywhere.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="blog-post">
+                <img src="images/baking.jpg" alt="Post 2">
+                <h3>5 Tips for Perfect Baking</h3>
+                <p>Baking is where science meets art, transforming simple ingredients into delicious masterpieces. From the comforting aroma of freshly baked bread to the irresistible allure of a perfectly frosted cake, baking brings warmth and joy to any kitchen. It’s about precision, creativity, and patience—whether you’re whipping up gooey chocolate chip cookies or crafting a delicate pastry. Each recipe tells a story and offers a chance to explore flavors and techniques that elevate everyday moments into something special. Dive into our baking adventures and discover the magic behind every delectable creation.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="blog-post">
+                <img src="images/smoothie.jpg" alt="Post 3">
+                <h3>Healthy Smoothie Recipes</h3>
+                <p>Smoothies are a deliciously refreshing way to pack a punch of nutrients into your day. Bursting with vibrant flavors and endless possibilities, these blended wonders are perfect for a quick breakfast, a revitalizing snack, or a post-workout boost. Whether it’s a creamy banana-strawberry blend, a tropical mango-pineapple mix, or a green powerhouse packed with spinach and kale, smoothies offer a nourishing and delightful experience in every sip. Explore our smoothie recipes and discover how easy it is to enjoy a burst of health and flavor in one delightful glass.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Food Blog. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

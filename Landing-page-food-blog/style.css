@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    max-height: 30px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    color: #242424;
+    text-align: center;
+    padding: 9em 0;
+}
+
+#hero .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background: #2c2c2c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+section {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about h2{
+    font-family: "copperplate";
+    font-size: 40px;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: "Merriweather";
+    font-size: 18px;
+}
+
+#blog h2{
+    font-family: "copperplate";
+    font-size: 40px;
+}
+
+.blog-post {
+    margin: 2em 0;
+    text-align: left;
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+}
+
+.blog-post h3 {
+    text-align: center;
+    margin: 0.5em 0;
+    font-family: "copperplate";
+    font-size: 25px;
+}
+
+.blog-post p {
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 1em;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #f8f8f8;
+    text-align: center;
+    padding: 1em 0;
+}
